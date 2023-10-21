@@ -7,4 +7,4 @@ Create Repo \
 Go through project requirements and specification \
 Check CSS template \
 Buy domain for my website \
-Initiate front-end work \
+Initiate front-end work
