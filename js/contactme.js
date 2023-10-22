@@ -30,16 +30,16 @@ $("#contactme-form").on("submit", function (event) {
  var simplified = JSON.stringify(formSubmit);
  console.log(simplified);
 
- axios.post('https://130kcncfh2.execute-api.us-east-1.amazonaws.com/v1/callstepfunction', 
+ axios.post('https://glrncltyferm23mh5hw77qc4c40pdzyb.lambda-url.us-east-1.on.aws/',
 {
     headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
     ,
-    //"input": "{\"sendername\": \"Sujit\",\"emailaddress\": [\"shafiqcs516@dispostable.com\"],\"telephone\": \"phone\",\"sendersubject\": \"subject\",\"sendermessage\":\"comment\"}",
+    //"input": "{\"sendername\": \"Sujit\",\"emailaddress\": [\"atikur.rahman1562@gmail.com\"],\"telephone\": \"phone\",\"sendersubject\": \"subject\",\"sendermessage\":\"comment\"}",
     "stateMachineArn": "arn:aws:states:us-east-1:717879216935:stateMachine:SMForEmailSend",
     "input": simplified
 })
   .then((response) => {
-    console.log("shafiq - OK");
+    console.log("atikur - OK");
     //alert("Your Requested Submitted Successfully ");
     console.log(response);
 
@@ -48,7 +48,7 @@ $("#contactme-form").on("submit", function (event) {
     
   })
   .catch( (error) => {
-    console.log("shafiq - error");
+    console.log("atikur - error");
     //alert("Ops !!! Failed to Submit. Retry again...");
     document.getElementById("submit_response").innerHTML = "Unknown Error Happened. Please try again";
     console.log(error);
