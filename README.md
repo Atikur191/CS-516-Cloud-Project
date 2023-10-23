@@ -12,6 +12,7 @@ Initiate front-end work
 
 
 ## 10/21/2023
+Setting Cloudfront \
 Use front-end templates \
 Start working on back-end \
 Deploy it in S3 \
@@ -23,6 +24,7 @@ Configure my domain in Route 53
 
 ## 10/22/2023
 Obtain ACM certificates \
+Completed backend API Serverless \
 Create SNS topic \
-Add Amazon Lex chatbot feature to my portfolio \
-Organize and modified the front-end feature from template
+Blog completed: Add Amazon Lex chatbot feature to my portfolio \
+Validation completed
