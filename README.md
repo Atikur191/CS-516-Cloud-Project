@@ -27,4 +27,4 @@ Obtain ACM certificates \
 Completed backend API Serverless \
 Create SNS topic \
 Blog completed: Add Amazon Lex chatbot feature to my portfolio \
-Validation completed
+Form validation completed
