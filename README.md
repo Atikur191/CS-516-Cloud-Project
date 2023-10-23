@@ -13,6 +13,7 @@ Initiate front-end work
 
 ## 10/21/2023
 Use front-end templates \
+Start working on back-end \
 Deploy it in S3 \
 Put CloudFront in front of the S3 bucket \
 Build the back-end API using serverless services \
